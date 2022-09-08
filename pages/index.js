@@ -1,18 +1,13 @@
 import Head from "next/head"
-import Header from "../components/Header"
-import NumberGameEntrance from "../components/NumberGameEntrance"
-import styles from "../styles/Home.module.css"
-
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
-                <title>Smart Contract Lottery</title>
-                <meta name="description" content="Our Smart Contract Lottery" />
+                <title>NFT Marketplace</title>
+                <meta name="description" content="Nft Marketplace" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Header />
-            <NumberGameEntrance/>
+          
         </div>
     )
 }
